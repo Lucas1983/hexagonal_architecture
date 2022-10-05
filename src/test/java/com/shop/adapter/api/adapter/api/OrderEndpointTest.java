@@ -5,7 +5,8 @@ import static org.hamcrest.CoreMatchers.is;
 
 import org.junit.jupiter.api.Test;
 
-import com.shop.adapter.api.order.domain.model.Order;
+import com.shop.adapter.api.OrderResponse;
+import com.shop.domain.model.Order;
 import io.quarkus.test.junit.QuarkusTest;
 
 @QuarkusTest
